@@ -12,23 +12,47 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/sex"
+        android:textSize="25sp"
         android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtSex"
+        android:hint="@string/edt_sex_hint"
+        android:layout_marginTop="43dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="你好..."
+        android:text="@string/age"
+        android:textSize="25sp"
         android:id="@+id/textString"
-        android:layout_marginTop="23dp" />
+        android:layout_marginTop="83dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAge"
+        android:hint="@string/edt_age_hint"
+        android:layout_marginTop="123dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_below="@+id/textString"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="53dp" />
+        android:text="@string/btn_ok"
+        android:id="@+id/btnOK"
+        android:textSize="25sp"
+        android:layout_marginTop="163dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/result"
+        android:id="@+id/textR"
+        android:layout_marginTop="213dp" />
+
 </RelativeLayout>
