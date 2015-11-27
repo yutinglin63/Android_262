@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">我的第一個Android程式</string>
+    <string name="hello_world">你好,這個程式的主要類別名稱叫做MainActivity</string>
+</resources>
